@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background: hsl(0, 0%, 8%);
+}
+
+.corp {
+    width: 400px;
+    height: 500px;
+    background: hsl(0, 0%, 20%);
+    margin: 100px 35%;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.londo {
+    color: hsl(75, 94%, 57%);
+}
+
+p {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 250px;
+    margin-left: 43%;
+    margin-top: 12px;
+    margin-bottom: 5px;
+
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+}
+
+.lien {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: hsl(0, 0%, 12%);
+    border: none;
+    padding: 5px 5px;
+    margin: 10px 50px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lien :hover {
+    background: hsl(75, 94%, 57%);
+
+}
