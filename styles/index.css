@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url("../assets/fonts/static/Inter-Regular.ttf");
+}
+
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Inter-Regular';
 }
 
 body {
@@ -9,8 +15,8 @@ body {
 }
 
 .corp {
-    width: 400px;
-    height: 500px;
+    width: 410px;
+    height: 550px;
     background: hsl(0, 0%, 20%);
     margin: 100px 35%;
     border-radius: 10px;
@@ -23,28 +29,35 @@ h2 {
 
 .londo {
     color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+}
+
+.text {
+    margin: 20px;
+    font-family: 'Inter-Regular';
 }
 
 p {
     text-align: center;
     color: hsl(0, 0%, 100%);
+    font-size: 14px;
 }
 
 img {
     width: 100px;
     height: 100px;
     border-radius: 250px;
-    margin-left: 43%;
+    margin-left: 40%;
     margin-top: 12px;
     margin-bottom: 5px;
 
 }
 
-a {
-    color: hsl(0, 0%, 100%);
+.lien {
+    margin-top: 20px;
 }
 
-.lien {
+a {
     width: 300px;
     height: 40px;
     margin-top: 10px;
@@ -57,9 +70,10 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
 }
 
-.lien :hover {
+a:hover {
     background: hsl(75, 94%, 57%);
-
+    color: hsl(0, 0%, 12%);
 }
